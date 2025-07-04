@@ -1,30 +1,26 @@
-🏏 Cric Play – A Mini Cricket Game Built with React
-Cric Play is an interactive, browser-based mini cricket game built using React.js. Each team takes turns to bat, and every player gets 6 balls to score. The game keeps track of each player's score, determines the winner, and allows users to start a new match with a single click.
+# 🏏 Cric Play – Mini Cricket Game in React
 
-🚀 Features:
-🎮 Turn-based gameplay with two teams
+**Cric Play** is a fun and interactive mini cricket game built using **React.js**. Each team gets to bat, and every player faces **6 balls**. The game keeps track of scores, determines the winner, and allows users to restart the match with a single click.
 
-🏏 Each player gets 6 balls to play
+---
 
-📊 Score tracking for every player and team
+## 🚀 Features
 
-🏆 Automatic winner calculation based on total runs
+- 🎮 Turn-based gameplay with two teams
+- 🏏 Each player gets 6 balls to bat
+- 📊 Score tracking for each player and team
+- 🏆 Winner is declared automatically based on total team scores
+- 🔁 "New Game" button to reset and restart the match
+- ⚛️ Built with React functional components and hooks
 
-🔁 New Game button to reset and start fresh
+---
 
-⚛️ Built with React functional components and state hooks
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack:
-React.js – for UI and component-based architecture
+- **React.js** – Frontend framework
+- **JavaScript (ES6+)** – Game logic and interactions
+- **HTML & CSS** – Structure and styling
 
-JavaScript (ES6+) – for game logic
+---
 
-HTML + CSS – for basic layout and styling
-
-💡 Learning Highlights:
-React useState and component props for managing team/player states
-
-Conditional rendering and game logic inside UI
-
-Practice with component reuse, lifting state up, and event handling
 
