@@ -1,12 +1,30 @@
-# React + Vite
+🏏 Cric Play – A Mini Cricket Game Built with React
+Cric Play is an interactive, browser-based mini cricket game built using React.js. Each team takes turns to bat, and every player gets 6 balls to score. The game keeps track of each player's score, determines the winner, and allows users to start a new match with a single click.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features:
+🎮 Turn-based gameplay with two teams
 
-Currently, two official plugins are available:
+🏏 Each player gets 6 balls to play
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📊 Score tracking for every player and team
 
-## Expanding the ESLint configuration
+🏆 Automatic winner calculation based on total runs
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔁 New Game button to reset and start fresh
+
+⚛️ Built with React functional components and state hooks
+
+🛠️ Tech Stack:
+React.js – for UI and component-based architecture
+
+JavaScript (ES6+) – for game logic
+
+HTML + CSS – for basic layout and styling
+
+💡 Learning Highlights:
+React useState and component props for managing team/player states
+
+Conditional rendering and game logic inside UI
+
+Practice with component reuse, lifting state up, and event handling
+
