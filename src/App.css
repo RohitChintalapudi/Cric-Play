@@ -1,0 +1,296 @@
+body {
+  max-width: 500px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/pinterestdownloader.com-1751544292.014997.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+background-position: center;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 15px black;
+  padding: 30px 100px;
+  background-color: white;
+}
+
+.error-button {
+  width: 90px;
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: orange;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.error-button:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.error-desc {
+  margin-top: -10px;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid black;
+  padding: 50px 100px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+  background-color: white;
+}
+
+.forms {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: 10px 0px;
+}
+
+
+.form-group1 {
+  width: 160px;        
+  height: 28px;
+  padding-left: 8px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px; 
+}
+
+
+label {
+  margin-right: 1px;
+  font-weight: bold;
+  width: 70px;
+}
+
+input {
+  height: 25px;
+  width: 120px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.start-game {
+  margin-top: 30px;
+  background-color: rgb(246, 174, 42);
+  height: 35px;
+  width: 90px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.start-game:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  box-shadow: 0 0 15px black;
+  padding: 30px 90px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.flag1 {
+  width: 100px;
+}
+
+.flag2 {
+  width: 130px;
+}
+
+.flag-images {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
+
+.player-name {
+  display: flex;
+  flex-direction: row;
+  gap: 210px;
+  font-size: larger;
+  font-weight: bold;
+}
+.p1{
+  background-color: aqua;
+  padding: 20px;
+  width: 100px;
+  border: 3px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+.p2{
+  background-color: greenyellow;
+  padding: 20px;
+  width: 100px;
+  border: 3px solid black;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.current-turn {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 2px 20px;
+  margin-top: -20px;
+  background-color: rgb(228, 227, 227);
+}
+
+
+.scores {
+  margin-top: -10px;
+}
+
+.total-score {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 240px;
+  margin-top: -50px;
+}
+
+.p1-score, .p2-score {
+  font-weight: bold;
+  width: 90px;
+}
+
+.balls-remain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 205px;
+  font-weight: bolder;
+}
+
+.balls {
+  margin-top: -10px;
+  margin-left: 45px;
+}
+
+.score-value {
+  margin-top: -10px;
+  margin-left: 30px;
+}
+
+.result-container {
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(90, 228, 90);
+  width: 450px;
+  border-radius: 15px;
+}
+
+.celebration {
+  margin-top: -15px;
+}
+
+.newgame-button, .hit-button {
+  background-color: orange;
+  height: 35px;
+  width: 100px;
+  margin-top: 20px;
+  font-weight: bolder;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.hit-button {
+  margin-bottom: 20px;
+  margin-top: 2px;
+  font-size: 15px;
+}
+
+.newgame-button:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.title {
+  margin-top: -3px;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .forms {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .player-name,
+  .total-score,
+  .balls-remain {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .result-container {
+    width: 100%;
+  }
+
+  .home-container {
+    padding: 30px 40px;
+  }
+
+  .game-container {
+    padding: 30px 20px;
+  }
+}
+.current-p{
+  background-color: rgb(231, 230, 230);
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 3px 30px;
+  margin-top: -20px;
+}
+.tagline{
+  margin-top: -45px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
