@@ -22,5 +22,6 @@
 - **HTML & CSS** – Structure and styling
 
 ---
+##⚠️ Best viewed on desktop or laptop screen. Mobile layout coming soon!
 
 
