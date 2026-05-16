@@ -3,7 +3,7 @@ import Home from "./pages/home";
 import Game from "./pages/game";
 import Errorpage from "./pages/404page";
 import { useState } from "react";
-import PlayerContext from "./pages/playercentext";
+import PlayerContext from "./context/PlayerContext";
 
 export default function App() {
   const [player1, setPlayer1] = useState("");

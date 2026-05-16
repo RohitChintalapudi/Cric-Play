@@ -1,7 +1,8 @@
 {
-  "name": "cricketgame",
+  "name": "cric-play",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A premium mini cricket game built with React.js featuring real-time score tracking and mobile responsiveness.",
   "type": "module",
   "scripts": {
     "dev": "vite",
